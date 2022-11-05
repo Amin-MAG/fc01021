@@ -39,7 +39,7 @@ class TestA01(unittest.TestCase):
         test_cases = (
             ((23, "212", 23, 12), 1),
             (("Helllo", None, "212", 23, 12), 2),
-            ((23, b"23333322", "eX01020030", -231), 0),
+            ((23, b"23333322", "eX01020030", -231), 1),
             (("programming", "linux", "ComputerRRRSS"), 3),
         )
 
